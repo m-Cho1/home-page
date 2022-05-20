@@ -22,11 +22,16 @@ ul {
 }
 
 .logo {
-  width: 100%;
+  width: 60%;
+  display: inline-block;
 }
 
 .display-flex {
   display: flex;
+}
+
+.align-item-center {
+  align-items: center;
 }
 
 .item-center {
@@ -41,22 +46,35 @@ ul {
 
 label {
   border: 3px solid rgb(241, 205, 122);
+  border-radius: 3px;
 }
 
 input {
   border: none;
-  width: 400px;
+  width: 500px;
+  height: 35px;
+  padding-right: 2px;
 }
 
 button {
   border: none;
-  padding: 5px;
   background-color: rgb(233, 115, 0);
   border-radius: 4px;
+  color: white;
+  width: 5.5rem;
+  height: 2rem;
+  font-weight: bolder;
+  font-size: large;
+  margin-right: 3px;
 }
 
 .search-box {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+::placeholder {
+  font-size: 18px;
+  padding-left: 9px;
 }
