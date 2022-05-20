@@ -7,6 +7,39 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="column-third display-flex item-center">
+        <div class="logo-img-container">
+          <img class="logo" src="data:image/png;base64,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" alt="chegg-img-logo">
+        </div>
+      </div>
+      <div class="column-third">
+        <div class="nav-bar-main">
+          <ul>
+            <li>Books &#9660;</li>
+            <li>Study &#9660;</li>
+            <li>Career &#9660;</li>
+            <li>Life</li>
+          </ul>
+        </div>
+      </div>
+      <div class="column-third">
+        <div class="nav-bar-sign-in">
+          <ul>
+            <li>For educators |</li>
+            <li> Help |</li>
+            <li> Sign in</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+  </div>
 </body>
 </html>
