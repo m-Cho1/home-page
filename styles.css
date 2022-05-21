@@ -1,6 +1,7 @@
 .container {
   width: 100%;
   margin: auto;
+  font-family: sans-serif;
 }
 
 .row {
@@ -77,4 +78,53 @@ button {
 ::placeholder {
   font-size: 18px;
   padding-left: 9px;
+}
+
+.big-image {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.text-container {
+  position: absolute;
+  top: 15rem;
+  left: 6rem;
+  color: white;
+}
+
+.button-container {
+  position: absolute;
+  top: 25rem;
+  left: 6rem;
+}
+
+.get-started {
+  border-radius: 50px;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+p {
+  width: 55%;
+  line-height: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.column-fourth {
+  width: calc(100% / 4);
+}
+
+.sub-images {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-images > img {
+  width: 100%;
 }
